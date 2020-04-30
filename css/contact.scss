@@ -1,0 +1,58 @@
+@import "color";
+@import "font";
+@import "html";
+@import "flex";
+@import "menu";
+@import "style";
+
+.titleContact {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    height: auto;
+    min-height: auto;
+    background-color: $wht;
+    h1 {
+        color: $primary;
+        text-shadow:  none;
+        
+    }
+}
+
+.bottomRightBox{
+    iframe {
+        height: 40vh;
+    }
+}
+
+.topLeftBox {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    textarea{ 
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    input{
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .button{
+        color: $wht;
+        background-color: $primary;
+        border: none;
+        height: 49px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bolder;
+        cursor: pointer;
+        box-shadow: 3px 3px 10px #aaaaaa;
+        &:hover {
+            background-color: $wht;
+            border: solid 2px $primary;
+            color: $primary;
+            box-shadow: inset 3px 3px 10px #aaaaaa;    
+        }
+    }
+}
+
+@import "media";

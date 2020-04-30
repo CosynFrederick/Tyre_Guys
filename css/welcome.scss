@@ -1,0 +1,69 @@
+@import "color";
+@import "font";
+@import "html";
+@import "flex";
+
+
+body {
+    background-color: $blk;
+}
+
+.top {
+    height: 70vh;
+    background-image: url(../img/tyre2-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: 80vh;
+
+    .logoBox {
+        width: 100vw;
+        height: 45vh;
+
+        .blur {
+            width: 100%;
+            height: 80%;
+            backdrop-filter: blur(5px);
+    
+            .logo {
+                height: 30vh;
+                width: auto;
+                fill: $wht;
+                -webkit-filter: drop-shadow(6px 6px 7px rgba(0,0,0,0.5));      
+                filter: drop-shadow(6px 6px 7px rgba(0,0,0,0.5));  
+            }
+        }
+
+        a {
+            text-decoration: none;
+
+            .button {
+                height: 20%;
+                width: 100%;
+                color: $wht;
+                background-color: $primary;
+                font-weight: bold;
+                font-size: 5vh;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+}
+
+.bottom {
+    height: 30vh;
+
+    .info{
+        height: 60%;
+        p {
+            font-size: 24px;
+            color: $wht;
+            text-align: center;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+    }
+}
+
+@import "media";

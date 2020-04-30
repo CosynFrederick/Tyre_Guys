@@ -1,0 +1,7 @@
+$fonts: (
+    font1: ('Montserrat', sans-serif),
+);
+
+@function font($font-name) {
+    @return map-get($fonts, $font-name);
+}

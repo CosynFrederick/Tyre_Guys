@@ -1,0 +1,17 @@
+@import "color";
+@import "font";
+@import "html";
+@import "flex";
+@import "menu";
+@import "style";
+
+.titleBg {
+    background-image: url(../img/rim-bg.jpg);
+}
+
+.bottomRightBox {
+    justify-content: flex-end;
+    margin-bottom: 3vh;
+}
+
+@import "media";
